@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+}
+
+.title {
+    font-size: 0.22rem;
+    color: #1b2733;
+}
+
+@media screen and (max-width: 750px) {
+    .loginImage {
+        display: none;
+    }
+}
+
+.loginImage {
+    width: 6.48rem;
+}
