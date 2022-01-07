@@ -2,8 +2,9 @@
   "name": "next-app-template",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "next dev -p 8686",
+    "build": "next build && next export",
+    "build:export": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
