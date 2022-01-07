@@ -1,0 +1,10 @@
+config/
+build/*
+src/plugins/*
+src/**/*.html
+__tests__
+jest.babel.js
+coverage/
+outputs/
+node_modules/
+tsc_outputs/
